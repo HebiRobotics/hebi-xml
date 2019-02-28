@@ -55,7 +55,7 @@ The `<effort>` element has no attributes.  Its acceptable children are:
 
 (`<min_limit>` and `<max_limit>` elements are shared among `<position>`, `<velocity>`, and `<effort>` elements and are described after these parent elements below)
 
-### `<min_limit>` and `<max_limit>`
+## `<min_limit>` and `<max_limit>`
 
 These elements describe the minimum and maximum values of the corresponding limits, and are floating point values with the special values of `-inf` and `inf` permitted.  (Note that `nan` is not permitted)
 
