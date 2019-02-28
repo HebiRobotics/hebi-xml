@@ -6,13 +6,13 @@ This folder contains descriptions and samples of HEBI's XML file formats
 
 This format stores safety limits and other such configuration parameters related.
 
-[Safety](Safety)
+[Safety](SAFETY.md)
 
 ## Gains:
 
 This format stores the PID gains and control strategy for an actuator.
 
-[Gains](Gains)
+[Gains](GAINS.md)
 
 ## HRDF:
 
