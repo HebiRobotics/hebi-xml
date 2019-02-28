@@ -1,2 +1,21 @@
-# hebi-xml
-HEBI XML Formats
+# HEBI XML Formats
+
+This folder contains descriptions and samples of HEBI's XML file formats
+
+## Safety:
+
+This format stores safety limits and other such configuration parameters related.
+
+[Safety](Safety)
+
+## Gains:
+
+This format stores the PID gains and control strategy for an actuator.
+
+[Gains](Gains)
+
+## HRDF:
+
+The HRDF Format and examples are defined at:
+
+[HRDF](http://github.com/HebiRobotics/hebi-hrdf)
