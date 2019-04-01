@@ -15,8 +15,8 @@ The `<mstop>` element has no attributes.  Its acceptable children are:
 
 The `<strategy>` element (as a child of `<mstop>`) describes the motion stop strategy for this actuator.  Acceptable values are:
 - disabled
-- off
-- hold
+- motor_off
+- motor_hold
 
 For `<safety>` root elements, this is treated as an enumeration; for `<group_safety>`, this is a whitespace-separate list of these values.
 
@@ -33,8 +33,8 @@ The `<position>` element has no attributes.  Its acceptable children are:
 
 The `<limit_strategy>` element (as a child of `<position>`) describes the position limit strategy for this actuator.  Acceptable values are:
 - disabled
-- off
-- hold
+- motor_off
+- motor_hold
 - spring
 
 For `<safety>` root elements, this is treated as an enumeration; for `<group_safety>`, this is a whitespace-separate list of these values.
